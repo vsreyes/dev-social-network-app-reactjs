@@ -65,6 +65,7 @@ const Register = ({ setAlert, register }) => {
             onChange={e => onChange(e)}
           />
         </div>
+        
         <div className="form-group">
           <input
             type="password"
