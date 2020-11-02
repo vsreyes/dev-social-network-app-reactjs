@@ -25,7 +25,6 @@ const ProfileTop = ({
             <i class='fas fa-globe fa-2x'></i>
           </a>
         )}
-
         <a href='#' target='_blank' rel='noopener noreferrer'>
           <i class='fab fa-twitter fa-2x'></i>
         </a>
