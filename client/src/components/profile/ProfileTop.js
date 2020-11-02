@@ -20,9 +20,12 @@ const ProfileTop = ({
       </p>
       <p>{location && <span>{location}</span>}</p>
       <div class='icons my-1'>
-        <a href='#' target='_blank' rel='noopener noreferrer'>
-          <i class='fas fa-globe fa-2x'></i>
-        </a>
+        {website && (
+          <a href={website} target='_blank' rel='noopener noreferrer'>
+            <i class='fas fa-globe fa-2x'></i>
+          </a>
+        )}
+
         <a href='#' target='_blank' rel='noopener noreferrer'>
           <i class='fab fa-twitter fa-2x'></i>
         </a>
